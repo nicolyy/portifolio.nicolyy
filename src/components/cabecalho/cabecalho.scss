@@ -1,0 +1,52 @@
+@import '../styles/style.scss';
+
+
+/* Cabecalho social media*/
+
+.container-cabecalho-social-media{
+    padding: 2% 0 0 1%;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+/*Cabecalho Principal*/
+.cabecalho-principal{
+   margin: 3% 5% 0 5%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.container-cabecalho-principal{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+
+    
+}
+
+.cabecalho-item{
+    color: #B40041;
+    text-align: center;
+    font-family: Spline Sans Mono;
+    font-size: 34px;
+    text-decoration: none;
+
+    border: 1px solid #B40041;
+    width: 100%;
+
+    padding: 1% 0 1% 0;
+
+
+
+}

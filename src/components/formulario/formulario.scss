@@ -1,0 +1,93 @@
+@import '../styles/style.scss';
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10% 15% 10%;    
+}
+
+form{
+    background-color: #292828;
+    width: 40vw;
+    height: 80vh;
+
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-titulo{
+    color: #D0014C;
+    text-align: center;
+    font-family: Spline Sans Mono;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin:  0 0 3% 0;
+}
+
+.form-input{
+    width: 100% ;
+    height: 6vh;
+    
+    background-color: #302F2F;
+    border: none;
+    margin: 3% 0 0 0;
+    color: #ffffff;
+    font-family: 'inter';
+    padding: 0 0 0 3%;
+}
+
+.form-input::placeholder{
+    padding: 0 0 0 2%;
+    font-family: 'inter';
+}
+
+
+
+
+.form-input-text-area::placeholder{
+    padding: 1% 0 0 2%;
+    font-family: 'inter';
+}
+
+
+.form-input-text-area{
+    width: 100% ;
+    height: 30vh;
+    
+    background-color: #302F2F;
+    border: none;
+    margin: 3% 0 0 0;
+
+    color: #ffffff;
+    font-family: 'inter';
+    padding: 2% 0 0 3%;
+}
+
+.btn-enviar-form{
+    background-color:#302F2F;
+    border:  1px solid #D0014C;
+    border-radius: 20px;
+    width: 10vw;
+    height: 5vh;
+
+    color: #D0014C;
+    font-size: 16px;
+    font-family: 'inter';
+    margin: 5% 0 0 0;
+}
+
+.container-form-social-medias{
+    padding: 8% 0 0 0;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+

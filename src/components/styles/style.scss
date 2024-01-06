@@ -1,0 +1,234 @@
+@import 'reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+/* Pagina principal */
+/*Fontes, titulos e subtitulos*/
+
+body{
+    background-color: #1B1A1A ;
+}
+
+.titulo1{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: 'inter';
+}
+
+h1{
+    color: #D0014C ;
+    font-size: 64px;
+    font-family: 'spline sans mono';
+}
+
+
+.subtitulo{
+    color: #D0014C;
+    font-size: 32px;
+    font-family: 'spline sans mono';
+}
+
+p{
+    color: #ffffff;
+}
+
+h2{
+    font-size: 40px;
+    color: #B40041;
+    font-family: 'spline sans mono';
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding: 2% 0 2% 0;
+    
+}
+
+
+
+/*Container principal*/
+
+
+
+.container-principal{
+    margin: 20% 10% 20% 10%;
+}
+
+.botoes-titulo{
+    margin: 3% 0 0 0;
+}
+.btn-conhecer{
+    border-radius: 40px;
+    background: #B40041;
+    box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.25);
+
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1% 5% 1% 5%;
+
+}
+
+.btn-curriculo{
+    border-radius: 40px;
+    border: 1px solid #B40041;
+    background: rgba(180, 0, 65, 0.00); 
+
+    text-decoration: none;
+    color: #B40041;
+    padding: 1% 5% 1% 5%;
+    margin: 0 0 0 1%;
+
+}
+
+
+/*section Sobre Mim*/
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sobre-mim-texto{
+    padding: 0% 10% 5% 10%;
+    font-family: 'inter';
+    font-weight: lighter;
+    font-size: 32px;
+
+    line-height: 1.2;
+}
+
+.texto-curriculo{
+    background-color: transparent;
+    border: none;
+
+    color: #B40041;
+    font-family: 'inter';
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+
+
+
+/* section habilidades */
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 10% 10% 10% 10%;
+}
+
+.habilidade-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: 196px;
+    height: 158px;
+    border-radius: 40px;
+    background: #282727;
+    
+    margin: 1%;
+}
+
+.container-habilidades{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.hover-zoom {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.5);
+  }
+
+
+/* Section projetos desenvolvidos*/
+.projetos-desenvolvidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 20% 0 20% 0;
+}
+
+.nav-projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.nav-projetos-item{
+    font-size: 28px;
+    font-family: 'Spline Sans Mono' ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #B40041;
+
+    border: 1px #B40041 solid;
+    width: 30vw;
+    padding: 3% 0 3% 0;
+
+    text-align: center;
+
+}
+
+
+/*Pagina Meus certificados*/
+
+.pag-cursos-certificados{
+    margin: 10% 0 10% 0;
+
+}
+
+.pag-certificados-titulo{
+    color: #ffffff;
+    text-align: center;
+    font-family: Spline Sans Mono;
+    font-size: 48px;
+ 
+}
+
+details{
+    margin: 1% 10% 0% 10%;
+}
+
+
+summary{
+    border-radius: 15px;
+    background: #363535;
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #ffffff;
+
+    padding: 0 0 0 3%;
+}
+
+.summary-open{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+    padding: 3% 3% 3% 3%;
+}
