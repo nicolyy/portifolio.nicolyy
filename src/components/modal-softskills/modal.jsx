@@ -1,0 +1,35 @@
+import React from 'react';
+import Modal from 'react-modal';
+import Image from 'next/image'
+
+
+import SoftSkills from '../../../public/Softskills.svg'
+
+
+
+const ModalSoftskills= ({ isOpen, closeModal, contentLabel }) => {
+  return (
+    <Modal className="modal"
+      isOpen={isOpen}
+      onRequestClose={closeModal}
+      contentLabel={contentLabel}
+    >
+      <div className='modal-open'>
+        <div className='modal-icone'>
+          <Image src={SoftSkills} alt=''/>
+
+        </div>
+       <ul>
+          <li>Aprendizado Ativo</li>
+          <li>Inteligência Emocional</li>
+          <li>Proatividade</li>
+          <li>Planejamento</li>
+          <li>Trabalho em Equipe</li>
+          <li>Adaptabilidade</li>
+       </ul>
+      </div>
+    </Modal>
+  );
+};
+
+export default ModalSoftskills;

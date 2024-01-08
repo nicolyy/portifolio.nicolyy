@@ -1,0 +1,119 @@
+@import '../styles/style.scss';
+
+
+
+.container-modal{
+    width: 70%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.modal-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-modal{
+    background-color: #D0014C;
+    border: none;
+    border-radius: 100px;
+
+    width: 150px;
+    height: 150px;
+}
+
+.btn-modal:hover{
+    background-color: #ff2c7a;
+}
+
+.modal-titulo{
+    color: #B40041;
+    text-align: center;
+    font-family: 'Spline Sans Mono';
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 10% 0 0 0;
+    
+}
+
+
+/*Configurações do modal aberto*/
+
+.modal{
+    width: 70vw;
+    height: 70vh;
+    background-color: #920A3B;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+.modal-open{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10% 0 10%;
+
+   
+}
+
+
+.modal-icone{
+    background-color: #80012f;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.modal-open-titulo{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 4% 0 1% 0;
+}
+
+.modal-open-texto{
+    color: #FFF;
+    font-family: Inter;
+    font-weight: lighter;
+    padding: 4% 0 0 0;
+
+}
+
+
+li{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    list-style: square;
+
+    padding: 1% 0 1% 0;
+}
+
+.modal-profissional{
+    width: 60%;
+    
+}

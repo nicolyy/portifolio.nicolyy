@@ -109,6 +109,12 @@ h2{
     text-decoration: underline;
 }
 
+/*Modals*/
+
+
+/*Modals*/
+
+
 
 
 
@@ -225,10 +231,49 @@ summary{
 }
 
 .summary-open{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
-    
     padding: 3% 3% 3% 3%;
+}
+
+
+.certificado-img{
+   margin: 2%;
+}
+
+.certificado-skill{
+    transform: rotate(90deg);
+    
+}
+
+
+/*Pagina meus Projetos*/
+.projetos{
+    margin: 0 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projeto-item{
+    width: 30vw;
+    height: 30vh;
+    background-color: #ffffff;
+    margin: 2%;
+    
+}
+
+.github-rep{
+    background-color: #B40041;
+    width: 30vw;
+    height: 5vh;
+    
+   
 }
