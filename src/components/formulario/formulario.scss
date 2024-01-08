@@ -10,7 +10,7 @@
 form{
     background-color: #292828;
     width: 40vw;
-    height: 80vh;
+    height: 90vh;
 
     padding: 5% 10% 5% 10%;
     display: flex;
@@ -27,11 +27,11 @@ form{
     font-weight: 400;
     line-height: normal;
 
-    margin:  0 0 3% 0;
+    margin:  3% 0 3% 0;
 }
 
 .form-input{
-    width: 100% ;
+    width: 80% ;
     height: 6vh;
     
     background-color: #302F2F;
@@ -57,7 +57,7 @@ form{
 
 
 .form-input-text-area{
-    width: 100% ;
+    width: 80% ;
     height: 30vh;
     
     background-color: #302F2F;

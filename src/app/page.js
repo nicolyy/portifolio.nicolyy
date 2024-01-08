@@ -1,14 +1,23 @@
-''
+'use client'
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 import '../components/styles/style.scss'
 
 import Cabecalho from '../components/cabecalho/cabecalho-social-medias'
 import Rodape from '@/components/rodape/rodape'
 import Carrossel from '@/components/carrossel/carrossel'
 import Formulario from '@/components/formulario/formulario'
-import Modal from '@/components/modal/modal'
+
+
+import ModalFormacao from '@/components/modal-formacao/modal'
+import ModalSoftskills from '@/components/modal-softskills/modal'
+import ModalProfissional from '@/components/modal-profissional/modal'
+
+import Formacao from '../../public/Formacao.svg'
+import SoftSkills from '../../public/SoftSkills.svg'
+import Profissional from '../../public/Profissional.svg'
 
 
 
@@ -24,6 +33,29 @@ import Block from '../../public/Block.svg'
 
 
 export default function Home() {
+
+        const [modalFormacaoIsOpen, setModalFormacaoIsOpen] = useState(false);
+        const [modalSoftskillsIsOpen, setModalSoftskillsIsOpen] = useState(false);
+        const [modalProfissionalIsOpen, setModalProfissionalIsOpen] = useState(false);
+    
+        const openModalFormacao = () => {
+          setModalFormacaoIsOpen(true);
+        };
+      
+        const openModalSoftskills = () => {
+          setModalSoftskillsIsOpen(true);
+        };
+      
+        const openModalProfissional = () => {
+          setModalProfissionalIsOpen(true);
+        };
+      
+        const closeModal = () => {
+          setModalFormacaoIsOpen(false);
+          setModalSoftskillsIsOpen(false);
+          setModalProfissionalIsOpen(false);
+        }
+    
  
   return (
     <>
@@ -54,8 +86,61 @@ export default function Home() {
               oportunidade de iniciar a minha graduação, agora, estou em busca de 
               uma oportunidade para desenvolver minhas habilidades. <button className='texto-curriculo'>Meu Curriculo</button></p>
             </div>
-            <Modal/>
+
+        
+
+            <div className='container-modal'>
+                    <div>
+                        <div className='cont-modal'>
+                                <button onClick={openModalFormacao} className='btn-modal'>
+                                    <Image src={Formacao} alt="" width={50} height={50}/>
+                                </button>
+                                <p className='modal-titulo'>Formação</p>
+                        </div>
+                        <div>
+                                <ModalFormacao
+                                    isOpen={modalFormacaoIsOpen}
+                                    closeModal={closeModal}
+                                    contentLabel=""
+                                />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button onClick={openModalSoftskills} className='btn-modal'>
+                                <Image src={SoftSkills} alt='' width={50} height={50}/>
+                                </button>
+                                <p className='modal-titulo'>Soft Skills</p>
+                        </div>
+                        <div>
+                            <ModalSoftskills
+                                isOpen={modalSoftskillsIsOpen}
+                                closeModal={closeModal}
+                                contentLabel=""
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button onClick={openModalProfissional} className='btn-modal'>
+                                <Image src={Profissional} alt='' width={50} height={50}/>
+                                </button>
+                                <p className='modal-titulo'>Profissional</p>
+                        </div>
+                        <div>
+                            <ModalProfissional
+                                isOpen={modalProfissionalIsOpen}
+                                closeModal={closeModal}
+                                contentLabel=""
+                            />
+                        </div>
+                    </div>
+            </div>
+
             
+          
+
+           
         </section>
 
 
@@ -113,4 +198,4 @@ export default function Home() {
     </>
     
   )
-}
+};
