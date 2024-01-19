@@ -30,6 +30,8 @@ import Github from '../../public/Github.svg'
 import Block from '../../public/Block.svg'
 
 
+import TypingEffect from '@/components/typingEffect/TypingEffect'
+
 
 
 export default function Home() {
