@@ -1,31 +1,45 @@
+
+"use client"
+import './carrossel.scss'
+import {Swiper, SwiperSlide} from "swiper/react"
+import {Navigation, Pagination, Autoplay} from "swiper/modules"
+
 import './carrossel.scss'
 
 export default function Carrossel(){
     return(
         <>
          
-            {/* Slider main container -->*/}
-            <div class="swiper">
-             {/*Additional required wrapper*/}
-             <div class="swiper-wrapper">
-               {/* Slides */}
-               <div class="swiper-slide">Slide 1</div>
-               <div class="swiper-slide">Slide 2</div>
-               <div class="swiper-slide">Slide 3</div>
-               
-             </div>
-             {/* If we need pagination*/}
-             <div class="swiper-pagination"></div>
+        <h1>SLide</h1>
 
-             {/* If we need navigation buttons*/}
-             <div class="swiper-button-prev"></div>
-             <div class="swiper-button-next"></div>
+        <Swiper
+        autoplay={{
+          delay:500
+        }}
+        modules={[Navigation, Autoplay]}
+        >
+          <SwiperSlide>
+            <div className='h-screen w-full a1'>
+            Hello
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='h-screen w-full a2'>
+            Hello
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='h-screen w-full a3'>
+            Hello
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='h-screen w-full a4'>
+            Hello
+            </div>
+          </SwiperSlide>
+        </Swiper>
 
-             {/* If we need scrollbar*/}
-             <div class="swiper-scrollbar"></div>
-           </div>
-
-        
         
         </>
     )
