@@ -4,7 +4,7 @@ const nextConfig = {}
 module.exports = nextConfig
 
 module.exports = {
-    // remove modules you don't need
+   
     modules: [
       'virtual',
       'keyboard',
@@ -29,5 +29,6 @@ module.exports = {
       'effect-coverflow',
       'effect-creative',
       'effect-cards',
+      'swiper/react'
     ],
   };
