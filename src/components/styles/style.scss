@@ -253,6 +253,26 @@ summary{
 
 
 /*Pagina meus Projetos*/
+
+.container-projeto{
+    margin: 1%;
+}
+
+.main-meus-projetos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    margin: 10%;
+    
+}
+
+.main-meus-projetos h1{
+    color: #ffffff;
+    font-size: 48px;
+}
 .projetos{
     margin: 0 5% 0 5%;
     display: flex;
@@ -266,7 +286,12 @@ summary{
     width: 30vw;
     height: 30vh;
     background-color: #ffffff;
-    margin: 2%;
+    margin: 5%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -277,3 +302,41 @@ summary{
     
    
 }
+
+
+.proj1{
+    background-image: url(../../../public/Projetos-background/allan-kelwin.png) ;
+    background-size: cover;
+}
+
+.proj2{
+    background-image: url(../../../public/Projetos-background/netflix-clone.png)   ;
+    background-size: cover;
+}
+
+.proj3{
+    background-image: url(../../../public/Projetos-background/link-nicolly.png);
+    background-size: cover;
+}
+
+.proj4, .proj5, .proj6, .proj7, .proj8{
+background-color: #363535;
+}
+
+#typedText {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid; /* para simular o cursor de digitação */
+    animation: typing 2s steps(40, end), blink-caret 0.5s step-end infinite;
+    /* ajuste a duração da animação conforme necessário */
+  }
+
+  
+
+  .typingEffect{
+    color: #B40041;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+  }
