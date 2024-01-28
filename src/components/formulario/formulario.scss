@@ -10,7 +10,7 @@
 form{
     background-color: #292828;
     width: 40vw;
-    height: 90vh;
+    height: 100vh;
 
     padding: 5% 10% 5% 10%;
     display: flex;
@@ -27,7 +27,7 @@ form{
     font-weight: 400;
     line-height: normal;
 
-    margin:  3% 0 3% 0;
+    margin:  5% 0 3% 0;
 }
 
 .form-input{
@@ -80,7 +80,14 @@ form{
     font-size: 16px;
     font-family: 'inter';
     margin: 5% 0 0 0;
+
 }
+
+.btn-enviar-form:hover{
+   background-color: #D0014C;
+   color: #ffffff;
+}
+
 
 .container-form-social-medias{
     padding: 8% 0 0 0;

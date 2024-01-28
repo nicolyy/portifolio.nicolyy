@@ -13,21 +13,23 @@ export default function Formulario(){
 
     <>
     <section className='formulario'>
-                <form action="">
+                <form  action="https://formsubmit.co/nicollyoliveira003@gmail.com" class="form-contato" id="formulario" method="POST" name="formulario" >
                     <h3 className='form-titulo'>ENTRE EM CONTATO</h3>
                     <label></label>
-                    <input className='form-input' type="text" placeholder='Nome Completo'/>
+                    <input className='form-input' type="text" name="name" id="name" placeholder='Nome Completo' required/>
 
                     <label></label>
-                    <input className='form-input' type="text" placeholder='Email'/>
+                    <input className='form-input' type="email" name='email' id='email' placeholder='Email' required/>
 
                     <label></label>
-                    <input className='form-input' type="text" placeholder='Assunto'/>
+                    <input className='form-input' type="text" name='assunto' id='assunto' placeholder='Assunto' required/>
 
                     <label></label>
-                    <textarea className='form-input-text-area' name="" id="" cols="30" rows="10" placeholder='Digite sua mensagem...'></textarea>
+                    <textarea className='form-input-text-area' type="text" name="mensagemt" id="mensagem" cols="30" rows="10" placeholder='Digite sua mensagem...' required></textarea>
+                    <input type="hidden" name="_captcha" value="false"></input>
+                    <input type="hidden" name="_next" value="../Obrigado/index.jsx"></input>
 
-                    <button className='btn-enviar-form'>Enviar</button>
+                    <button className='btn-enviar-form' id='enviar'> Enviar</button>
                     <div>
                     
                         <nav className='container-form-social-medias'>
