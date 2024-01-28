@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Cabecalho from '@/components/cabecalho/cabecalho-principal'
 import Rodape from '@/components/rodape/rodape'
 
-import TypingEffect from '@/components/typingEffect/TypingEffect'
+import Café from '../../../../public/xicara-de-cafe.gif'
 
 export default function meusProjetos(){
 
@@ -20,9 +20,11 @@ export default function meusProjetos(){
             <div className='container-projeto'>
                <Link href='https://allankelwin-portifolio.netlify.app/' target='_blank'>
                <div className='projeto-item proj1'></div>
+              
                </Link>
-               <Link href="#" className='githup-rep'></Link>
+
             </div>
+           
 
             <div className='container-projeto'>
                <Link href='https://netflix-clone-me4yo81qm-nicolyy.vercel.app/' target='_blank'>
@@ -38,35 +40,47 @@ export default function meusProjetos(){
 
             <div className='container-projeto'>
                <div  className='projeto-item proj4'>
-               <h3 className='typingEffect'>Pegue o seu café, projeto em desenvolvimento...</h3>
+               <div className='typewriter'>
+                        
+                        <h3>Projeto em desenvolvimento...</h3>
+                  </div>
                </div>
                
             </div>
 
             <div className='container-projeto'>
                <div  className='projeto-item proj5'>
-               <h3 className='typingEffect'>Pegue o seu café, projeto em desenvolvimento...</h3>
+               <div className='typewriter'>
+                     <h3>Projeto em desenvolvimento...</h3>
+                  </div>
                </div>
                
             </div>
 
             <div className='container-projeto'>
                <div  className='projeto-item proj6'>
-               <h3 className='typingEffect'>Pegue o seu café, projeto em desenvolvimento...</h3>
+               <div className='typewriter'>
+                     <h3>Projeto em desenvolvimento...</h3>
+                  </div>
                </div>
                
             </div>
             
             <div className='container-projeto'>
                <div  className='projeto-item proj7'>
-               <h3 className='typingEffect'>Pegue o seu café, projeto em desenvolvimento...</h3>
+               <div className='typewriter'>
+                     <h3>Projeto em desenvolvimento...</h3>
+                  </div>
+
                </div>
                
             </div>
 
             <div className='container-projeto'>
                <div  className='projeto-item proj8'>
-               <h3 className='typingEffect'>Pegue o seu café, projeto em desenvolvimento...</h3>
+                  <div className='typewriter'>
+                     <h3>Projeto em desenvolvimento...</h3>
+                  </div>
                </div>
                
             </div>

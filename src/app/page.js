@@ -9,11 +9,14 @@ import Cabecalho from '../components/cabecalho/cabecalho-social-medias'
 import Rodape from '@/components/rodape/rodape'
 import Carrossel from '@/components/carrossel/carrossel'
 import Formulario from '@/components/formulario/formulario'
+import Curriculo from '@/components/curriculo/curriculo'
+
 
 
 import ModalFormacao from '@/components/modal-formacao/modal'
 import ModalSoftskills from '@/components/modal-softskills/modal'
 import ModalProfissional from '@/components/modal-profissional/modal'
+import ModalTeste from '@/components/modal-teste/modal-teste'
 
 import Formacao from '../../public/Formacao.svg'
 import SoftSkills from '../../public/SoftSkills.svg'
@@ -56,8 +59,10 @@ export default function Home() {
           setModalFormacaoIsOpen(false);
           setModalSoftskillsIsOpen(false);
           setModalProfissionalIsOpen(false);
-        }
-    
+        };
+
+        const documentoUrl = '../../public/curriculo.pdf';
+        const nomeDoDocumento = 'curriculo.pdf';
  
   return (
     <>
@@ -71,11 +76,13 @@ export default function Home() {
                 <p className='subtitulo'>Eu sou Desenvolvedora em processo...</p>
             </div>
             <div className='botoes-titulo'>
-                <Link className='btn-conhecer' href="#"> Conhecer</Link>
-                <Link className='btn-curriculo' href="#"> Curriculo</Link>
+                <Link className='btn-conhecer glow-on-hover' href="#"> Conhecer</Link>
+                <Curriculo fileUrl={documentoUrl} fileName={nomeDoDocumento}/>
             </div>
         </main>
         <section className='sobre-mim'>
+
+      
           <div className='sobre-mim-texto'>
               <h2>Sobre Mim</h2>
               <p>Prazer, Nicoly! Sou estudante de análise e desenvolvimento de sistenas, 
@@ -86,9 +93,10 @@ export default function Home() {
               de Front End e User Experience, mas disposta a conhecer novos caminhos. 
               Há um ano, consegui minha bolsa de 100% através do Prouni, onde tive a 
               oportunidade de iniciar a minha graduação, agora, estou em busca de 
-              uma oportunidade para desenvolver minhas habilidades. <button className='texto-curriculo'>Meu Curriculo</button></p>
+              uma oportunidade para desenvolver minhas habilidades.</p>
             </div>
 
+          
         
 
             <div className='container-modal'>
