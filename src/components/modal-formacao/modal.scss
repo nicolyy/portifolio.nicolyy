@@ -44,8 +44,8 @@
 /*Configurações do modal aberto*/
 
 .modal{
-    width: 70vw;
-    height: 70vh;
+    width: 100vw;
+    height: 100vh;
     background-color: #920A3B;
 
     display: flex;
@@ -56,14 +56,27 @@
     
 }
 
+.modal-tela{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+.close-button{
+    width: 30vw;
+    height: 2rem;
+    margin: 40% 5% 5% 5%;
+}
 
 .modal-open{
     width: 100%;
+   
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0 10% 0 10%;
+    
 
    
 }
@@ -80,6 +93,7 @@
     text-align: center;
     justify-content: center;
     
+   
 }
 
 .modal-open-titulo{
@@ -105,7 +119,7 @@
 li{
     color: #FFF;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     list-style: square;
