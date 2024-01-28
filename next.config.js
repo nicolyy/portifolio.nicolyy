@@ -31,4 +31,7 @@ module.exports = {
       'effect-cards',
       'swiper/react'
     ],
+
   };
+
+  
