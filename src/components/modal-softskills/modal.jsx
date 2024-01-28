@@ -14,10 +14,17 @@ const ModalSoftskills= ({ isOpen, closeModal, contentLabel }) => {
       onRequestClose={closeModal}
       contentLabel={contentLabel}
     >
+
+      <div className='modal-tela'>
+            
+      
+        <button className='close-button' onClick={closeModal}>
+            Fechar
+        </button>
+      
       <div className='modal-open'>
         <div className='modal-icone'>
           <Image src={SoftSkills} alt=''/>
-
         </div>
        <ul>
           <li>Aprendizado Ativo</li>
@@ -28,6 +35,10 @@ const ModalSoftskills= ({ isOpen, closeModal, contentLabel }) => {
           <li>Adaptabilidade</li>
        </ul>
       </div>
+      </div>
+      
+    
+     
     </Modal>
   );
 };
