@@ -14,6 +14,11 @@ const ModalProfissional = ({ isOpen, closeModal, contentLabel }) => {
       onRequestClose={closeModal}
       contentLabel={contentLabel}
     >
+
+    <div className='modal-tela'>
+    <button className='close-button' onClick={closeModal}>
+            Fechar
+        </button>
     <div className='modal-open'>
       <div className='modal-icone'>
         <Image src={Profissional} alt=''/>
@@ -45,7 +50,7 @@ const ModalProfissional = ({ isOpen, closeModal, contentLabel }) => {
             Impressões jato de tinta, plastificação.</p>
         </div>
       </div>
-      
+      </div>
         
     </div>
     </Modal>
