@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 
 import Profissional from '../../../public/Profissional.svg'
+import Close from '../../../public/fechar.png'
 
 
 
@@ -16,9 +17,9 @@ const ModalProfissional = ({ isOpen, closeModal, contentLabel }) => {
     >
 
     <div className='modal-tela'>
-    <button className='close-button' onClick={closeModal}>
-            Fechar
-        </button>
+          <button className='close-button' onClick={closeModal}>
+            <Image src={Close}  alt=''/>
+          </button>
     <div className='modal-open'>
       <div className='modal-icone'>
         <Image src={Profissional} alt=''/>
