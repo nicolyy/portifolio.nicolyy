@@ -16,6 +16,7 @@ import Certificado8 from '../../../../public/Certificados/ux-ui/usp ui.ux-1.png'
 import Certificado9 from '../../../../public/Certificados/ux-ui/Design Thinking FIAP.png'
 import Certificado10 from '../../../../public/Certificados/ux-ui/User-Experience.png'
 
+
 export default function meusCertificados(){
     return(
         <>
@@ -40,7 +41,7 @@ export default function meusCertificados(){
                 <div className='certificado-img'>
                     <Image src={Certificado4} alt='' width={600} height={400}/>
                 </div>
-               
+                
             </div>
         </details>
 
@@ -83,7 +84,7 @@ export default function meusCertificados(){
             </summary>
             <div className='summary-open'>
                 <div className='certificado-img'>
-                    <Image className='certificado-skill' src={Certificado5} alt='' width={400} height={600}/>
+                    <Image src={Certificado5} alt='' width={600} height={400}/>
                 </div>
                 <div className='certificado-img'>
                     <Image src={Certificado6} alt='' width={600} height={400}/>
