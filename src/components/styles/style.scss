@@ -318,7 +318,8 @@ summary{
 /*Pagina meus Projetos*/
 
 .container-projeto{
-    margin: 1%;
+    
+    margin: 0 1% 0 1%;
 }
 
 .main-meus-projetos{
@@ -343,6 +344,7 @@ summary{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .projeto-item{
@@ -359,10 +361,16 @@ summary{
 }
 
 .github-rep{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: relative;
     background-color: #B40041;
     width: 40vw;
-    height: 5vh;
+    height: 8vh;
+
+    margin: 0 1% 0 5%;
     
    
 }
@@ -384,7 +392,8 @@ summary{
 }
 
 .proj4, .proj5, .proj6, .proj7, .proj8{
-background-color: #D0014C;
+background-color: #0b0104;
+border:  solid 1px #D0014C;
 }
   
 
