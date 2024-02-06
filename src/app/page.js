@@ -69,6 +69,7 @@ export default function Home() {
        
         
         <main className='container-principal'>
+    
             <div className='container-titulo'>
                 <h1 className='titulo1'>Olá!, meu nome é</h1>
                 <h1>Nicoly Oliveira</h1>
