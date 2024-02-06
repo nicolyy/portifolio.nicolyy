@@ -27,7 +27,7 @@ export default function Formulario(){
                     <label></label>
                     <textarea className='form-input-text-area' type="text" name="mensagemt" id="mensagem" cols="30" rows="10" placeholder='Digite sua mensagem...' required></textarea>
                     <input type="hidden" name="_captcha" value="false"></input>
-                    <input type="hidden" name="_next" value="../Obrigado/index.jsx"></input>
+                    <input type="hidden" name="_next" value="./obrigado.jsx"></input>
 
                     <button className='btn-enviar-form' id='enviar'> Enviar</button>
                     <div>
