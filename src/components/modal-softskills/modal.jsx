@@ -32,7 +32,7 @@ const ModalSoftskills= ({ isOpen, closeModal, contentLabel }) => {
             <li>Trabalho em Equipe</li>
             <li>Adaptabilidade</li>
         </ul>
-        </div>'
+        </div>
       </div>
       
     
