@@ -12,7 +12,7 @@ export default function CabecalhoPrincipal(){
                     HOME
                 </Link>
                 <Link className='cabecalho-item' href='/pages/meusProjetos'>
-                    ACESSAR PORTIFÓLIO
+                    PORTIFÓLIO
                 </Link>
                 <Link className='cabecalho-item' href='/pages/meusCertificados'>
                     CERTIFICADOS
