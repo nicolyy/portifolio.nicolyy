@@ -98,3 +98,73 @@ form{
     justify-content: space-around;
 }
 
+/* Media Querie */
+@media only screen and (max-width: 1024px){
+
+   
+    form{
+        width: 70vw;
+        height: 90vh;
+    
+    }
+    
+    
+    .btn-enviar-form{
+       
+        width: 30vw;
+    
+    }
+    
+   
+    
+    .container-form-social-medias{
+        padding: 8% 0 0 0;
+        width: 40vw;
+       
+    }
+    
+    /* Media Querie -------------------------------------------------------------------*/
+@media only screen and (max-width: 768px){
+
+    form{
+        width: 80vw;
+        height: 80vh;
+    }
+    
+    
+    .btn-enviar-form{
+       
+        width: 30vw;
+    
+    }
+    
+   
+    
+    .container-form-social-medias{
+        padding: 8% 0 0 0;
+        width: 40vw;
+       
+    }
+}
+
+ /* Media Querie -------------------------------------------------------------------*/
+ @media only screen and (max-width: 482px){
+    .form-titulo{
+        font-size: 26px;
+    }
+
+     
+    .btn-enviar-form{
+       
+        width: 60vw;
+    
+    }
+
+    .container-form-social-medias{
+        padding: 8% 0 0 0;
+        width: 60vw;
+       
+    }
+ }
+
+}
