@@ -14,7 +14,7 @@ import Curriculo from '@/components/curriculo/curriculo'
 
 
 import ModalFormacao from '@/components/modal-formacao/modal'
-import ModalSoftskills from '@/components/modal-softSkills/modal'
+import ModalSoftskills from '@/components/modal-softskills/modal'
 import ModalProfissional from '@/components/modal-profissional/modal'
 
 import Formacao from '../../public/Formacao.svg'
