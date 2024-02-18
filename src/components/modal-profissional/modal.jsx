@@ -16,7 +16,7 @@ const ModalProfissional = ({ isOpen, closeModal, contentLabel }) => {
       contentLabel={contentLabel}
     >
 
-    <div className='modal-tela'>
+    <div className='modal-tela-profissional'>
           <button className='close-button' onClick={closeModal}>
             <Image src={Close}  alt=''/>
           </button>
