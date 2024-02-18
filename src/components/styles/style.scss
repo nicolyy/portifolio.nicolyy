@@ -221,6 +221,9 @@ h2{
 
 
 /* Section projetos desenvolvidos*/
+
+
+
 .projetos-desenvolvidos{
     display: flex;
     flex-direction: column;
@@ -424,4 +427,405 @@ border:  solid 1px #D0014C;
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
+}
+
+
+/* Media Querie -------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+
+    .titulo1{
+        font-size: 22px;
+    }
+    
+    h1{
+        font-size: 38px;
+    }
+    
+    
+    .subtitulo{
+        font-size: 22px;
+    }
+    
+
+    h2{
+        font-size: 38px;
+    }
+    
+    
+    
+    /*section Sobre Mim*/
+
+    
+    .sobre-mim-texto{
+        font-size: 22px;
+    }
+    
+   
+    
+    /* section habilidades */
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 10% 10% 10% 10%;
+    }
+    
+    .habilidade-item{
+        width: 150px;
+    }
+    
+    
+    
+    
+    .projetos-desenvolvidos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin: 20% 0 20% 0;
+    }
+    
+ 
+    
+    .nav-projetos-item{
+        width: 40vw;
+    }
+    
+   
+    /*Pagina Meus certificados*/
+    
+    /*Pagina meus Projetos*/
+    
+    .container-projeto{
+        margin: 0 1% 0 0;
+    }
+    
+    
+    
+    .main-meus-projetos h1{
+        color: #ffffff;
+        font-size: 48px;
+    }
+    .projetos{
+        margin: 0 5% 10% 4%;
+    }
+    .projeto-item{
+        width: 40vw;
+        height: 20vh;
+    }
+    
+    .github-rep{
+       
+        width: 40vw;
+        height: 5vh;
+    }
+    
+ 
+}
+
+/* Media Querie -------------------------------------------------------------------*/
+@media only screen and (max-width: 768px){
+
+     /* section habilidades */
+     .habilidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 30% 10% 30% 10%;
+    }
+    
+    .habilidade-item{
+        width: 120px;
+        height: 120px;
+    }
+    
+    
+    
+    /*Certificadoa */
+    .certificado-img Image{
+        width: 100px ;
+        height: 90px ;
+    }
+
+    
+.pag-cursos-certificados{
+    margin: 10% 0 10% 0;
+
+}
+
+.pag-certificados-titulo{
+    
+    font-size: 38px;
+ 
+}
+
+details{
+    margin: 1% 5% 0% 5%;
+}
+
+.certificado-img{
+   margin: 4px;
+}
+
+    /* Projetos */
+    
+    .nav-projetos-item{
+        width: 30vw;
+        font-size: 18px;
+        padding: 3% 5% 3% 5%;
+        
+
+        }
+
+        .container-projeto{
+            margin: 0 1% 0 0;
+        }
+        
+        
+        
+        .main-meus-projetos h1{
+            color: #ffffff;
+            font-size: 48px;
+        }
+        .projetos{
+            margin: 0 5% 10% 4%;
+        }
+        .projeto-item{
+            width: 40vw;
+            height: 15vh;
+        }
+        
+        .github-rep{
+           
+            width: 40vw;
+            height: 5vh;
+        }
+
+        .typewriter h3 {
+           font-size: 12px;
+        }
+    
+/* Media Querie -------------------------------------------------------------------*/
+@media only screen and (max-width: 480px){
+    .titulo1{
+        font-size: 18px;
+    }
+    
+    h1{
+        font-size: 26px;
+        padding: 1% 0 0 0;
+    }
+    
+    
+    .subtitulo{
+        font-size: 18px;
+        padding: 1% 0 0 0;
+    }
+    
+   
+    
+    h2{
+        font-size: 26px;
+    }
+    
+    
+    
+    /*Container principal*/
+    
+    
+    
+    .container-principal{
+        margin: 20% 10% 20% 10%;
+    }
+    
+    .botoes-titulo{
+        margin: 3% 0 0 0;
+    }
+    .btn-conhecer{
+        border-radius: 40px;
+        padding: 2% 6% 2% 6%;
+    }
+    
+    .btn-curriculo{
+        font-size: 18px;
+        
+        padding: 2% 6% 2% 6%;
+        margin: 0 0 0 3%;
+    
+    
+    }
+    
+    /*section Sobre Mim*/
+    
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .sobre-mim-texto{
+    
+        font-size: 18px;
+    
+     
+    }
+ 
+    
+    /* section habilidades */
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 30% 5% 30% 5%;
+    }
+    
+    .habilidade-item{
+      
+        
+        width: 120px;
+        height: 120px;
+        
+        
+        margin: 1%;
+    }
+    
+    .container-habilidades{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    
+    .hover-zoom {
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .hover-zoom:hover {
+        transform: scale(1.5);
+      }
+    
+    
+    /* Section projetos desenvolvidos*/
+    
+    
+    
+    .projetos-desenvolvidos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin: 20% 0 20% 0;
+    }
+    
+    .nav-projetos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5% 0 0 0;
+    }
+    
+    .nav-projetos-item{
+        font-size: 16px;
+        width: 40vw;
+        padding: 3% 0 3% 0;
+    }
+    
+    
+    /*Pagina Meus certificados*/
+    
+    .pag-cursos-certificados{
+        margin: 10% 0 10% 0;
+    
+    }
+    
+    .pag-certificados-titulo{
+       
+        font-size: 26px;
+     
+    }
+    
+    details{
+        margin: 1% 5% 0% 5%;
+    }
+    
+    
+    summary{
+        height: 6vh
+    }
+    
+    .summary-open{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        padding: 3% 3% 3% 3%;
+    }
+    
+
+    
+    /*Pagina meus Projetos*/
+    
+    
+    
+    .main-meus-projetos{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    
+        margin: 10%;
+        
+    }
+    
+    .main-meus-projetos h1{
+      
+        font-size: 26px;
+    }
+    .projetos{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+    
+    .projeto-item{
+        width: 80vw;
+        height: 20vh;
+        
+        
+    }
+    
+    .github-rep{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: #B40041;
+        width: 80vw;
+        height: 3vh;
+    
+      
+    }
+
+}
 }
