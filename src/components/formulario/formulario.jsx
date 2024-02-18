@@ -1,3 +1,5 @@
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -10,10 +12,9 @@ import GitHub from '../../../public/GitIcone.svg'
 
 export default function Formulario(){
     return(
-
     <>
     <section className='formulario'>
-                <form  action="https://formsubmit.co/nicollyoliveira003@gmail.com" class="form-contato" id="formulario" method="POST" name="formulario" >
+                <form   action="https://formsubmit.co/nicollyoliveira003@gmail.com" class="form-contato" id="formulario" method="POST" name="formulario" >
                     <h3 className='form-titulo'>ENTRE EM CONTATO</h3>
                     <label></label>
                     <input className='form-input' type="text" name="name" id="name" placeholder='Nome Completo' required/>
@@ -27,7 +28,7 @@ export default function Formulario(){
                     <label></label>
                     <textarea className='form-input-text-area' type="text" name="mensagemt" id="mensagem" cols="30" rows="10" placeholder='Digite sua mensagem...' required></textarea>
                     <input type="hidden" name="_captcha" value="false"></input>
-                    <input type="hidden" name="_next" value="./obrigado.jsx"></input>
+                    <input type="hidden" name="_next" value="https://portifolio-nicolyy.vercel.app/pages/obrigado"></input>
 
                     <button className='btn-enviar-form' id='enviar'> Enviar</button>
                     <div>
