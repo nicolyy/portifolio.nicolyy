@@ -69,6 +69,15 @@
     justify-content: space-evenly;
 }
 
+.modal-tela-profissional{
+    background-color: #80012f;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .close-button{
     background-color: transparent;
     border: none;
@@ -190,6 +199,15 @@ li{
 }
 
 .modal-tela{
+    background-color: #80012f;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.modal-tela-profissional{
     background-color: #80012f;
     width: 80vw;
     height: 80vh;
@@ -373,7 +391,9 @@ li{
         padding: 4% 0 0 0;
     
     }
-    
+    ul{
+        margin: 0 0 40% 0;
+    }
     
     li{
         font-size: 1rem;
@@ -383,8 +403,17 @@ li{
     .modal-profissional{
        
         width: 90%;
-        height: 90%;
+        height: 100%;
         
+    }
+
+    .modal-tela-profissional{
+        background-color: #80012f;
+        width: 80vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 }
 }
