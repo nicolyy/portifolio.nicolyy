@@ -158,37 +158,37 @@ export default function Home() {
             <h2>Minhas habilidades</h2>
             <div className='container-habilidades'>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom' src={Html} alt=""/>
+                    <Image className='hover-zoom' src={Html} alt=" Logo HTML"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Css} alt=""/>
+                    <Image className='hover-zoom'  src={Css} alt="Logo CSS"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={JavaScript} alt=""/>
+                    <Image className='hover-zoom'  src={JavaScript} alt="Logo JAVASCRIPT"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={React} alt=""/>
+                    <Image className='hover-zoom'  src={React} alt="Logo REACT"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Figma} alt=""/>
+                    <Image className='hover-zoom'  src={Figma} alt="Logo FIGMA"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Github} alt=""/>
+                    <Image className='hover-zoom'  src={Github} alt="Logo GITHUB"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Block} alt=""/>
+                    <Image className='hover-zoom'  src={Block} alt="Logo BLOCK"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Block} alt=""/>
+                    <Image className='hover-zoom'  src={Block} alt="Logo BLOCK"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Block} alt=""/>
+                    <Image className='hover-zoom'  src={Block} alt="Logo BLOCK"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Block} alt=""/>
+                    <Image className='hover-zoom'  src={Block} alt="Logo BLOCK"/>
                 </div>
                 <div className='habilidade-item'>
-                    <Image className='hover-zoom'  src={Block} alt=""/>
+                    <Image className='hover-zoom'  src={Block} alt="Logo BLOCK"/>
                 </div>
             </div>
         </section>
