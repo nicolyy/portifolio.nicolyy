@@ -14,7 +14,7 @@ import Curriculo from '@/components/curriculo/curriculo'
 
 
 import ModalFormacao from '@/components/modal-formacao/modal'
-import ModalSoftskills from '@/components/modal-softskills/modal'
+import ModalSoftskills from '@/components/modal-softSkills/modal'
 import ModalProfissional from '@/components/modal-profissional/modal'
 
 import Formacao from '../../public/Formacao.svg'
@@ -28,7 +28,7 @@ import Css from '../../public/Css.svg'
 import JavaScript from  '../../public/JavaScript.svg'
 import React from  '../../public/React.svg'
 import Figma from '../../public/Figma.svg'
-import Github from '../../public/Github.svg'
+import Github from '../../public/GitHub.svg'
 import Block from '../../public/Block.svg'
 
 
