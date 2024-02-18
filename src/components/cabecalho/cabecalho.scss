@@ -50,3 +50,127 @@
 
 
 }
+
+/* Media Querie  -------------------------------------------------------------*/
+@media only screen and (max-width: 1024px){
+
+
+    .container-cabecalho-social-media{
+        padding: 2% 0 0 1%;
+        width: 30vw;
+        
+    
+    }
+    
+    
+    /*Cabecalho Principal*/
+    .cabecalho-principal{
+       margin: 3% 5% 0 5%;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+    }
+    
+    .container-cabecalho-principal{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        
+    
+        
+    }
+    
+    .cabecalho-item{
+        color: #B40041;
+        text-align: center;
+        font-family: Spline Sans Mono;
+        font-size: 22px;
+        text-decoration: none;
+    
+        border: 1px solid #B40041;
+        width: 100%;
+    
+        padding: 1% 0 1% 0;
+    
+    
+    
+    }
+
+    /* Media Querie  -------------------------------------------------------------*/
+    @media only screen and (max-width: 768px){
+        .container-cabecalho-social-media{
+            padding: 2% 0 0 1%;
+            width: 30vw;
+            
+        
+        }
+        
+        
+        /*Cabecalho Principal*/
+        .cabecalho-principal{
+           margin: 3% 5% 0 5%;
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
+        }
+        
+        .container-cabecalho-principal{
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            
+        
+            
+        }
+        
+        .cabecalho-item{
+            color: #B40041;
+            text-align: center;
+            font-family: Spline Sans Mono;
+            font-size: 18px;
+            text-decoration: none;
+        
+            border: 1px solid #B40041;
+            width: 100%;
+        
+            padding: 1% 0 1% 0;
+        
+        
+        
+        }
+    }
+
+/* Media Querie  -------------------------------------------------------------*/
+@media only screen and (max-width: 482px){
+
+    .container-cabecalho-social-media{
+        padding: 5% 0 0 3%;
+        width: 40vw;
+        
+    
+    }
+    
+    
+    /*Cabecalho Principal*/
+    .cabecalho-principal{
+       margin: 5% 5% 0 5%;
+    
+    }
+  
+    
+    .cabecalho-item{
+  
+        font-size: 18px;
+        
+    
+}
+
+}}
