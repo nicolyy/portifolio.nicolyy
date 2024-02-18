@@ -194,10 +194,10 @@ export default function Home() {
         </section>
         <section className='projetos-desenvolvidos'>
             <h2>Projetos Desenvolvidos</h2>
-            <Carrossel/>
+            
 
             <div className='nav-projetos'>
-              <Link className='nav-projetos-item' href="/pages/meusProjetos" >Acessar Portifólio</Link>
+              <Link className='nav-projetos-item' href="/pages/meusProjetos" >Portifólio</Link>
               <Link className='nav-projetos-item' href="/pages/meusCertificados">Certificados</Link>
             </div>
         </section>
