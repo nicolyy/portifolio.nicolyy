@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import Image from 'next/image'
 
 
-import SoftSkills from '../../../public/Softskills.svg'
+import SoftSkills from '../../../public/SoftSkills.svg'
 import Close from '../../../public/fechar.png'
 
 
