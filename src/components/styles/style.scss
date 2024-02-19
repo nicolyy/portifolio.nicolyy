@@ -454,6 +454,7 @@ border:  solid 1px #D0014C;
     background-color: #363535;
     font-size: 32px;
     margin: auto;
+    text-align: center;
 }
 .obrigado-home{
     text-decoration: none;
@@ -463,6 +464,7 @@ border:  solid 1px #D0014C;
     color: #ffffff;
     font-size: 26px;
     margin: 5% 0 0 0;
+    text-align: center;
 }
 
 /* Media Querie -------------------------------------------------------------------*/
@@ -866,6 +868,33 @@ details{
         height: 3vh;
     
       
+    }
+
+    .container-obrigado{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    .texto-obrigado{
+        width: 80%;
+        font-size: 22px;
+    }
+
+
+
+    .obrigado-home{
+        text-decoration: none;
+        background-color: #D0014C;
+        border-radius: 15px;
+        padding: 2% 10% 2% 10%;
+        color: #ffffff;
+        font-size: 18px;
+        margin: 5% 0 0 0;
     }
 
 }

@@ -10,7 +10,7 @@ export default function ObrigadoPage (){
         <main className='container-obrigado'>
             <div className='texto-obrigado'>
             <Image src={Obrigado} alt='' width={400} height={200}/>
-            <p>Obrigada pelo envio!</p>
+            <p>Obrigada pelo envio.</p>
             <p>Em breve entrarei em contato!</p>
             <Link className='obrigado-home' href="#">Voltar para HOME</Link>
             </div>
