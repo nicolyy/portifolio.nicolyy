@@ -433,6 +433,38 @@ border:  solid 1px #D0014C;
 }
 
 
+/*Pagina Obrigado*/
+.container-obrigado{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.texto-obrigado{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #363535;
+    font-size: 32px;
+    margin: auto;
+}
+.obrigado-home{
+    text-decoration: none;
+    background-color: #D0014C;
+    border-radius: 15px;
+    padding: 2% 10% 2% 10%;
+    color: #ffffff;
+    font-size: 26px;
+    margin: 5% 0 0 0;
+}
+
 /* Media Querie -------------------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
 
