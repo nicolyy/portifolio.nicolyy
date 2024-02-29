@@ -80,7 +80,6 @@ form{
     font-size: 16px;
     font-family: 'inter';
     margin: 5% 0 0 0;
-
 }
 
 .btn-enviar-form:hover{
@@ -100,23 +99,15 @@ form{
 
 /* Media Querie */
 @media only screen and (max-width: 1024px){
-
-   
     form{
         width: 70vw;
         height: 90vh;
-    
     }
-    
     
     .btn-enviar-form{
-       
         width: 30vw;
-    
     }
-    
-   
-    
+
     .container-form-social-medias{
         padding: 8% 0 0 0;
         width: 40vw;
@@ -133,9 +124,7 @@ form{
     
     
     .btn-enviar-form{
-       
         width: 30vw;
-    
     }
     
    
@@ -143,7 +132,6 @@ form{
     .container-form-social-medias{
         padding: 8% 0 0 0;
         width: 40vw;
-       
     }
 }
 
@@ -155,15 +143,12 @@ form{
 
      
     .btn-enviar-form{
-       
         width: 60vw;
-    
     }
 
     .container-form-social-medias{
         padding: 8% 0 0 0;
         width: 60vw;
-       
     }
  }
 
