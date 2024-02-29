@@ -1,10 +1,12 @@
-import { useRouter } from 'next/router';
-import { useState } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 
+
+{/* Importando o estilo*/}
 import './formulario.scss'
 
+
+{/* Importando imagens*/}
 import Email from '../../../public/Email.svg'
 import Discord from '../../../public/Discord.svg'
 import Linkedin from '../../../public/Linkedin.svg'
