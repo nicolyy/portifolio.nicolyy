@@ -1,10 +1,13 @@
 import Image from 'next/image'
 import '../../../components/styles/style.scss'
 
+{/* Importando componente*/}
 import Cabecalho from '@/components/cabecalho/cabecalho-principal'
 
+{/* Importando imagem*/}
 import Seta from '../../../../public/Seta.svg'
 
+{/* Importando os certificados*/}
 import Certificado1 from '../../../../public/Certificados/logica-de-programacao/logica.png'
 import Certificado2 from '../../../../public/Certificados/desenvolvimento-web/github.png'
 import Certificado3 from '../../../../public/Certificados/desenvolvimento-web/htmlcssalura1.png'
@@ -29,7 +32,7 @@ export default function meusCertificados(){
     </section>
         <details>
             <summary>Desenvolvimento Web
-                <Image src={Seta} alt=''width={80} height={100}/>
+                <Image src={Seta} alt='Seta'width={80} height={100}/>
             </summary>
             <div className='summary-open'>
                 <div className='certificado-img-container'>
@@ -47,7 +50,7 @@ export default function meusCertificados(){
 
         <details>
             <summary>User Experience e Metodologias Ágeis
-            <Image src={Seta} alt=''width={80} height={100}/>
+            <Image src={Seta} alt='seta'width={80} height={100}/>
             </summary>
             <div className='summary-open'>
                 <div className='certificado-img-container'>
@@ -65,7 +68,7 @@ export default function meusCertificados(){
 
         <details>
             <summary>Lógica de Programação
-            <Image src={Seta} alt=''width={80} height={100}/>
+            <Image src={Seta} alt='seta'width={80} height={100}/>
             </summary>
             <div className='summary-open'>
                 <div className='certificado-img-container'>
@@ -80,7 +83,7 @@ export default function meusCertificados(){
 
         <details>
             <summary>Inglês
-            <Image src={Seta} alt=''width={80} height={100}/>
+            <Image src={Seta} alt='seta'width={80} height={100}/>
             </summary>
             <div className='summary-open'>
                 <div className='certificado-img-container'>
@@ -94,7 +97,7 @@ export default function meusCertificados(){
         </details>
         <details>
             <summary>Github
-            <Image src={Seta} alt=''width={80} height={100}/>
+            <Image src={Seta} alt='seta'width={80} height={100}/>
             </summary>
             <div className='summary-open'>
                 <div className='certificado-img-container'>
@@ -103,9 +106,7 @@ export default function meusCertificados(){
                 
             </div>
         </details>
-
     <section>
-
     </section>
         </>
     )
