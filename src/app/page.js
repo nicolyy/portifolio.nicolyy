@@ -5,24 +5,27 @@ import Link from 'next/link'
 import { useState } from 'react'
 import '../components/styles/style.scss'
 
+
+
+{/* Importando os componentes*/}
 import Cabecalho from '../components/cabecalho/cabecalho-social-medias'
 import Rodape from '@/components/rodape/rodape'
-import Carrossel from '@/components/carrossel/carrossel'
 import Formulario from '@/components/formulario/formulario'
 import Curriculo from '@/components/curriculo/curriculo'
 
 
-
+{/* Importando os Modals*/}
 import ModalFormacao from '@/components/modal-formacao/modal'
 import ModalSoftskills from '@/components/modal-softskills/modal'
 import ModalProfissional from '@/components/modal-profissional/modal'
 
+{/* Importando logotipo dos Modals*/}
 import Formacao from '../../public/Formacao.svg'
 import SoftSkills from '../../public/SoftSkills.svg'
 import Profissional from '../../public/Profissional.svg'
 
 
-
+{/* Importando logotipo das habilidades*/}
 import Html from '../../public/html.svg'
 import Css from '../../public/Css.svg'
 import JavaScript from  '../../public/JavaScript.svg'
@@ -30,10 +33,6 @@ import React from  '../../public/React.svg'
 import Figma from '../../public/Figma.svg'
 import Github from '../../public/GitHub.svg'
 import Block from '../../public/Block.svg'
-
-
-import TypingEffect from '@/components/typingEffect/TypingEffect'
-
 
 
 export default function Home() {
@@ -66,10 +65,7 @@ export default function Home() {
   return (
     <>
     <Cabecalho/>
-       
-        
         <main className='container-principal'>
-    
             <div className='container-titulo'>
                 <h1 className='titulo1'>Olá!, meu nome é</h1>
                 <h1>Nicoly Oliveira</h1>
@@ -80,9 +76,8 @@ export default function Home() {
                 <Curriculo fileUrl={documentoUrl} fileName={nomeDoDocumento}/>
             </div>
         </main>
-        <section className='sobre-mim'>
 
-      
+        <section className='sobre-mim'>
           <div className='sobre-mim-texto'>
               <h2>Sobre Mim</h2>
               <p>Prazer, Nicoly! Sou estudante de análise e desenvolvimento de sistenas, 
@@ -95,15 +90,11 @@ export default function Home() {
               oportunidade de iniciar a minha graduação, agora, estou em busca de 
               uma oportunidade para desenvolver minhas habilidades.</p>
             </div>
-
-          
-        
-
             <div className='container-modal'>
                     <div>
                         <div className='cont-modal'>
                                 <button onClick={openModalFormacao} className='btn-modal'>
-                                    <Image src={Formacao} alt="" width={50} height={50}/>
+                                    <Image src={Formacao} alt="logotipo representando a formacao" width={50} height={50}/>
                                 </button>
                                 <p className='modal-titulo'>Formação</p>
                         </div>
@@ -118,7 +109,7 @@ export default function Home() {
                     <div>
                         <div>
                             <button onClick={openModalSoftskills} className='btn-modal'>
-                                <Image src={SoftSkills} alt='' width={50} height={50}/>
+                                <Image src={SoftSkills} alt='logotipo representando as softskills' width={50} height={50}/>
                                 </button>
                                 <p className='modal-titulo'>Soft Skills</p>
                         </div>
@@ -133,7 +124,7 @@ export default function Home() {
                     <div>
                         <div>
                             <button onClick={openModalProfissional} className='btn-modal'>
-                                <Image src={Profissional} alt='' width={50} height={50}/>
+                                <Image src={Profissional} alt='logotipo representand o profissional' width={50} height={50}/>
                                 </button>
                                 <p className='modal-titulo'>Profissional</p>
                         </div>
@@ -146,13 +137,7 @@ export default function Home() {
                         </div>
                     </div>
             </div>
-
-            
-          
-
-           
         </section>
-
 
         <section className='habilidades'>
             <h2>Minhas habilidades</h2>
@@ -192,15 +177,15 @@ export default function Home() {
                 </div>
             </div>
         </section>
+
         <section className='projetos-desenvolvidos'>
             <h2>Projetos Desenvolvidos</h2>
-            
-
             <div className='nav-projetos'>
               <Link className='nav-projetos-item' href="/pages/meusProjetos" >Portifólio</Link>
               <Link className='nav-projetos-item' href="/pages/meusCertificados">Certificados</Link>
             </div>
         </section>
+        
         
        <Formulario/>
        <Rodape/>
