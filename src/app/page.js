@@ -13,6 +13,8 @@ import Rodape from '@/components/rodape/rodape'
 import Formulario from '@/components/formulario/formulario'
 import Curriculo from '@/components/curriculo/curriculo'
 
+import FadeInUp from '@/components/FadeInUp/fadeinup';
+
 
 {/* Importando os Modals*/}
 import ModalFormacao from '@/components/modal-formacao/modal'
@@ -66,18 +68,30 @@ export default function Home() {
     <>
     <Cabecalho/>
         <main className='container-principal'>
-            <div className='container-titulo'>
-                <h1 className='titulo1'>Olá!, meu nome é</h1>
-                <h1>Nicoly Oliveira</h1>
-                <p className='subtitulo'>Eu sou Desenvolvedora em processo...</p>
-            </div>
-            <div className='botoes-titulo'>
-                <Link className='btn-conhecer glow-on-hover' href="#"> Conhecer</Link>
-                <Curriculo fileUrl={documentoUrl} fileName={nomeDoDocumento}/>
-            </div>
+                <div className='container-titulo'>
+                    <FadeInUp delay={0}>
+                    <div id='section2'>
+                        <h1 className='titulo1'>Olá!, meu nome é</h1>
+                        <h1>Nicoly Oliveira</h1>
+                        <p className='subtitulo'>Eu sou Desenvolvedora em processo...</p>
+                    </div>
+                    </FadeInUp>
+                </div>
+                <FadeInUp delay={200}>
+                <div id='section2'>
+                <div className='botoes-titulo'>
+                    <Link className='btn-conhecer glow-on-hover' href="#"> Conhecer</Link>
+                    <Curriculo fileUrl={documentoUrl} fileName={nomeDoDocumento}/>
+                </div>
+                </div>
+                </FadeInUp>
+
         </main>
+        
 
         <section className='sobre-mim'>
+        <FadeInUp delay={400}>
+        <div id='section1'>
           <div className='sobre-mim-texto'>
               <h2>Sobre Mim</h2>
               <p>Prazer, Nicoly! Sou estudante de análise e desenvolvimento de sistenas, 
@@ -91,7 +105,7 @@ export default function Home() {
               uma oportunidade para desenvolver minhas habilidades.</p>
             </div>
             <div className='container-modal'>
-                    <div>
+                    <div className='modal-transicao'>
                         <div className='cont-modal'>
                                 <button onClick={openModalFormacao} className='btn-modal'>
                                     <Image src={Formacao} alt="logotipo representando a formacao" width={50} height={50}/>
@@ -107,7 +121,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div className='modal-transicao'>
                             <button onClick={openModalSoftskills} className='btn-modal'>
                                 <Image src={SoftSkills} alt='logotipo representando as softskills' width={50} height={50}/>
                                 </button>
@@ -122,7 +136,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div className='modal-transicao'>
                             <button onClick={openModalProfissional} className='btn-modal'>
                                 <Image src={Profissional} alt='logotipo representand o profissional' width={50} height={50}/>
                                 </button>
@@ -137,9 +151,11 @@ export default function Home() {
                         </div>
                     </div>
             </div>
+            </div>
+            </FadeInUp>
         </section>
-
-        <section className='habilidades'>
+        
+        <section className='habilidades'>    
             <h2>Minhas habilidades</h2>
             <div className='container-habilidades'>
                 <div className='habilidade-item'>
@@ -177,13 +193,17 @@ export default function Home() {
                 </div>
             </div>
         </section>
+      
 
         <section className='projetos-desenvolvidos'>
+        
+        
             <h2>Projetos Desenvolvidos</h2>
             <div className='nav-projetos'>
               <Link className='nav-projetos-item' href="/pages/meusProjetos" >Portifólio</Link>
               <Link className='nav-projetos-item' href="/pages/meusCertificados">Certificados</Link>
             </div>
+        
         </section>
         
         
