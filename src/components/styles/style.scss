@@ -162,7 +162,7 @@ h2{
 }
 
 .sobre-mim-texto{
-    padding: 0% 10% 5% 10%;
+    padding: 0% 10% 15% 10%;
     font-family: 'inter';
     font-weight: lighter;
     font-size: 28px;
@@ -258,6 +258,11 @@ h2{
     color: #ffffff;
 }
 
+
+.github-logo{
+    width: 50px;
+    height: 50px;
+}
 /*Pagina Meus certificados*/
 
 .pag-cursos-certificados{
@@ -619,6 +624,12 @@ border:  solid 1px #D0014C;
         .typewriter h3 {
            font-size: 12px;
         }
+
+        .github-logo{
+            width: 20px;
+            height: 20px;
+        }
+    
     
 /* Media Querie -------------------------------------------------------------------*/
 @media only screen and (max-width: 480px){
@@ -794,6 +805,10 @@ border:  solid 1px #D0014C;
         padding: 0 4% 0 0;
     }
     
+    .github-logo{
+        width: 20px;
+        height: 20px;
+    }
 
     
     /*Pagina meus Projetos*/
