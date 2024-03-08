@@ -13,6 +13,7 @@ import Rodape from '@/components/rodape/rodape'
 import Formulario from '@/components/formulario/formulario'
 import Curriculo from '@/components/curriculo/curriculo'
 
+
 import FadeInUp from '@/components/FadeInUp/fadeinup';
 
 
@@ -61,8 +62,8 @@ export default function Home() {
           setModalProfissionalIsOpen(false);
         };
 
-        const documentoUrl = '../../public/curriculo.pdf';
-        const nomeDoDocumento = 'curriculo.pdf';
+        const imageURL = '../../public/curriculo.png';
+        const imageName = 'curriculo.png';
  
   return (
     <>
@@ -80,8 +81,8 @@ export default function Home() {
                 <FadeInUp delay={200}>
                 <div id='section2'>
                 <div className='botoes-titulo'>
-                    <Link className='btn-conhecer glow-on-hover' href="#"> Conhecer</Link>
-                    <Curriculo fileUrl={documentoUrl} fileName={nomeDoDocumento}/>
+                    <Link className='btn-conhecer glow-on-hover' href="#section1"> Conhecer</Link>
+                    <Curriculo fileUrl={imageURL} fileName={imageName}/>
                 </div>
                 </div>
                 </FadeInUp>
