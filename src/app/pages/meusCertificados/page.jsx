@@ -18,6 +18,7 @@ import Certificado7 from '../../../../public/Certificados/logica-de-programacao/
 import Certificado8 from '../../../../public/Certificados/ux-ui/uspui.ux-1.png'
 import Certificado9 from '../../../../public/Certificados/ux-ui/DesignThinkingFIAP.png'
 import Certificado10 from '../../../../public/Certificados/ux-ui/User-Experience.png'
+import Rodape from '@/components/rodape/rodape'
 
 
 export default function meusCertificados(){
@@ -106,7 +107,8 @@ export default function meusCertificados(){
                 
             </div>
         </details>
-    <section>
+    <section className='section-rodape'>
+        <Rodape/>
     </section>
         </>
     )
