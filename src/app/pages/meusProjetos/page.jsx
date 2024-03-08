@@ -24,7 +24,7 @@ export default function meusProjetos(){
                   </Link>
                <div className='github-rep'>
                   <Link href='https://github.com/nicolyy/allanKelwin.portifolio'target='_blank'>
-                     <Image src={Github} alt='logotipo github' width={40} height={40}/>
+                     <Image className='github-logo'  src={Github} alt='logotipo github'/>
                   </Link>
                </div>
             </div>
@@ -36,7 +36,7 @@ export default function meusProjetos(){
                   </Link>
                <div className='github-rep'>
                   <Link href='https://github.com/nicolyy/netflix' target='_blank'>
-                     <Image src={Github} alt='logotipo github' width={40} height={40}/>
+                     <Image className='github-logo'  src={Github} alt='logotipo github'/>
                   </Link>
                </div>
             </div>
@@ -47,7 +47,7 @@ export default function meusProjetos(){
                   </Link>
                <div className='github-rep'>
                   <Link href='https://github.com/nicolyy/dev.links.projeto.discover'target='_blank'>
-                     <Image src={Github} alt='logotipo github' width={40} height={40}/>
+                     <Image className='github-logo'  src={Github} alt='logotipo github'/>
                   </Link>
                </div>
             </div>
@@ -60,7 +60,7 @@ export default function meusProjetos(){
                </div>
                <div className='github-rep'>
                   <Link href='#'>
-                     <Image src={Github} alt='logotipo github' width={40} height={40}/>
+                     <Image className='github-logo'  src={Github} alt='logotipo github'/>
                   </Link>
                </div>
                
@@ -74,7 +74,7 @@ export default function meusProjetos(){
                </div>
                <div className='github-rep'>
                   <Link href='#'>
-                     <Image src={Github} alt='logotipo github' width={40} height={40}/>
+                     <Image className='github-logo'  src={Github} alt='logotipo github'/>
                   </Link>
                </div>
             </div>
@@ -87,7 +87,7 @@ export default function meusProjetos(){
                </div>
                <div className='github-rep'>
                   <Link href='#'>
-                     <Image src={Github} alt='logotipo github' width={40} height={40}/>
+                     <Image className='github-logo'  src={Github} alt='logotipo github'/>
                   </Link>
                </div>
             </div>
@@ -100,7 +100,7 @@ export default function meusProjetos(){
                </div>
                <div className='github-rep'>
                   <Link href='#'>
-                     <Image src={Github} alt='logotipo github' width={40} height={40}/>
+                     <Image className='github-logo'  src={Github} alt='logotipo github'/>
                   </Link>
                </div>
                
@@ -114,7 +114,7 @@ export default function meusProjetos(){
                </div>
                <div className='github-rep'>
                   <Link href='#'>
-                     <Image src={Github} alt='Logotipo github' width={40} height={40}/>
+                     <Image className='github-logo' src={Github} alt='Logotipo github'/>
                   </Link>
                </div>
             </div>
